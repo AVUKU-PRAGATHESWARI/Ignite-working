@@ -1,5 +1,4 @@
 import React from 'react';
-import 'font-awesome/css/font-awesome.min.css';
 import './registration.css';
 
 const Register = ({ name,email,starting_year, pin,ending_year,password, onNameChange,onEmailChange,onPinChange, onStartingYearChange, onPasswordChange,onEndingYearChange, onSubmit, onFormError}) => {
