@@ -1,0 +1,9 @@
+.for-botton{
+    background-color: rgb(255, 22, 22);
+    color: aliceblue;
+    width: 130px;
+}
+
+.for-botton:hover{
+    border: 2px solid rgb(85, 53, 53);
+}
