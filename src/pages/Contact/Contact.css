@@ -125,7 +125,7 @@ body
     font-size: 16px;
     font-weight: 500;
     padding: 12px 35px;
-    background: orange;
+    background: #A50D0D;
     color: white;
     border-radius: 40px;
     display: inline-block;
@@ -144,7 +144,7 @@ body
 
 /* Contact */
 .contact-title{
-    color: orange;
+    color: #A50D0D;
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
@@ -170,7 +170,7 @@ body
 
 .contact .contact-info-item .icon .fa{
     font-size: 25px;
-    color: orange;
+    color: #A50D0D;
 }
 .contact .contact-info-item h4{
     font-size: 18px;
