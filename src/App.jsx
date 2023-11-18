@@ -5,7 +5,7 @@ import Activites from './pages/Activites';
 import News from './pages/News';
 import LoginContainer from './containers/LoginContainer';
 import RegistationContainer from './containers/RegistrationContainer';
-import Contact from './pages/Contact';
+import Contact from './pages/Contact/Contact';
 import Teams from './pages/Teams/TeamsPage';
 
 function App() {
