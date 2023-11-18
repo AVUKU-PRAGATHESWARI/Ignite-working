@@ -27,17 +27,26 @@ const Contact = () => {
           };
     
           await emailjs.send(
-            'your_emailjs_service_id',
-            'your_emailjs_template_id',
+            'service_z02cloc',
+            'template_9zuh6wl',
             templateParams,
-            'your_emailjs_user_id'
+            'teZZDhMTTPkAAZIpY'
           );
     
           console.log('Email sent successfully');
         } catch (error) {
           console.error('Error sending email:', error);
         }
+        console.log('Sending message:', formData);
+        // Reset the form data after sending the message
+        setFormData({
+          name: '',
+          email: '',
+          subject: '',
+          message: '',
+        });
       };
+
   return (
     <>
         <div className="contact section" id="contact">
