@@ -49,40 +49,40 @@ const Contact = () => {
 
   return (
     <>
+    
         <div className="contact section" id="contact">
     <div className="container">
         <div className="row">
             <div className="section-title padd-15">
-                <h2>Contact Me</h2>
+                <h2>Contact Us</h2>
             </div>
         </div>
         <h3 className="contact-title padd-15">Have Any Questions ?</h3>
-        <h4 className="contact-sub-title padd-15">I'M AI YOUR SERVICE</h4>
         <div className="row">           
             <div className="contact-info-item padd-15">
                 <div className="icon"><i className="fa fa-phone"></i></div>
                 <h4>Call Us On</h4>
-                <p>+91 9392961208</p>
+                <p className='for-service-detail'>+91 9392989208</p>
             </div>
             <div className="contact-info-item padd-15">
                 <div className="icon"><i className="fa fa-map-marker-alt"></i></div>
                 <h4>Office</h4>
-                <p>Pulivendula</p>
+                <p className='for-service-detail'>Tirupati</p>
             </div>
             <div className="contact-info-item padd-15">
                 <div className="icon"><i className="fa fa-envelope"></i></div>
                 <h4>Email</h4>
-                <p>pragatheswaria@gmail.com</p>
+                <p className='for-service-detail'>ignite_svuce@gmail.com</p>
             </div>
             <div className="contact-info-item padd-15">
                 <div className="icon"><i className="fa fa-globe-europe"></i></div>
                 <h4>Website</h4>
-                <p>www.domain.com</p>
+                <p className='for-service-detail'>www.ignite.com</p>
             </div>
         </div>
         
-        <h3 className="contact-title padd-15">SEND ME AN EMAIL</h3>
-        <h4 className="contact-sub-title padd-15">I'M VERY RESPONISIVE TO MESSAGES</h4>
+        <h3 className="contact-title padd-15">SEND US EMAIL</h3>
+        <h4 className="contact-sub-title padd-15">WE ARE VERY RESPONISIVE TO MESSAGES</h4>
 
         
         <div className="row">
@@ -134,7 +134,7 @@ const Contact = () => {
             </div>
         </div>
     </div>
-        </div>
+</div>
     </>
   )
 }

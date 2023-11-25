@@ -85,7 +85,7 @@ textarea{
     font-size: 16px;
     font-weight: 500;
     padding: 12px 35px;
-    background: #A50D0D;
+    background: red;
     color: white;
     border-radius: 40px;
     display: inline-block;
@@ -104,7 +104,7 @@ textarea{
 
 /* Contact */
 .contact-title{
-    color: #A50D0D;
+    color: red;
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
@@ -130,7 +130,7 @@ textarea{
 
 .contact .contact-info-item .icon .fa{
     font-size: 25px;
-    color: #A50D0D;
+    color: red;
 }
 .contact .contact-info-item h4{
     font-size: 18px;
@@ -152,6 +152,8 @@ textarea{
     flex: 0 0 100%;
     max-width: 100%;
 }
+
+
 
 .contact .contact-form .col-6{
     flex: 0 0 50%;
@@ -187,6 +189,10 @@ textarea{
 .contact .contact-form .btn{
     height: 50px;
     padding: 0 50px;
+}
+
+.for-service-detail{
+    font-size: 16px;
 }
 
 @media(max-width:1199px){

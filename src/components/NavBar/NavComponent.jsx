@@ -41,7 +41,7 @@ const NavComponent = () => {
               <Link className="for-list-items" to="/contact">contact</Link>
             </li> 
             <li>
-              <Link className="for-list-items" to='/news'>News</Link>
+              <Link className="for-list-items" to='/gallery'>Gallery</Link>
             </li>
           </ul>
         

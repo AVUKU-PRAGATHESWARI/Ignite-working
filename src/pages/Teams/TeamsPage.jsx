@@ -18,17 +18,17 @@ import NavComponent from '../../components/NavBar/NavComponent';
 const Teams = () => {   
 
     const teamMembers = [
-        { name: 'Name of person', role: 'Role in Ignite', imageSrc: rishitha },
-        { name: 'Name of person', role: 'Role in Ignite', imageSrc: dwisanth },
-        { name: 'Name of person', role: 'Role in Ignite', imageSrc: sajid},        
-        { name: 'Name of person', role: 'Role in Ignite', imageSrc: rishithreddy},
-        { name: 'Name of person', role: 'Role in Ignite', imageSrc: anil},        
-        { name: 'Name of person', role: 'Role in Ignite', imageSrc: lahari },
-        { name: 'Name of person', role: 'Role in Ignite', imageSrc: mubhashira},        
-        { name: 'Name of person', role: 'Role in Ignite', imageSrc: saiganesh },
-        { name: 'Name of person', role: 'Role in Ignite', imageSrc: saipavan},        
-        { name: 'Name of person', role: 'Role in Ignite', imageSrc: saivivek },
-        { name: 'Name of person', role: 'Role in Ignite', imageSrc: sreenadh},
+        { name: 'B Dwishanth', role: 'Chief Excuitive Officer', imageSrc: dwisanth },
+        { name: 'N Ganesh', role: 'Chief Finance Officer', imageSrc: saiganesh },
+        { name: 'K Anil Kumar', role: 'Chief Tehnical Officer', imageSrc: anil},
+        { name: 'Shaik Mubhashira', role: 'Chief Tehnical Officer', imageSrc: mubhashira},        
+        { name: 'U Rishitha Sharon', role: 'Chief Operations Officer', imageSrc: rishitha }, 
+        { name: 'C Sai Vivek', role: 'Chief Communication Officer', imageSrc: saivivek },
+        { name: 'Shaik Sajid Hussain', role: 'Chief Marketing Officer', imageSrc: sajid},        
+        { name: 'P Rishith Reddy', role: 'Chief Stategy Officer', imageSrc: rishithreddy},
+        { name: 'Y Lahari', role: 'Chief Social Officer', imageSrc: lahari },
+        { name: 'P Sai Pavan Kumar', role: 'Cheif Finance Officer', imageSrc: saipavan},        
+        { name: 'B Srinadh', role: 'Cheif Creative Offier', imageSrc: sreenadh},
       ];
 
   return (
