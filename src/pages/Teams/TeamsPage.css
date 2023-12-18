@@ -19,7 +19,7 @@
     height: 20vh; /* Adjusted height for responsiveness */
     margin: 1rem 2rem; /* Adjusted margin */
     font-size: 4rem; /* Adjusted font size */
-    color: #fd2b06; /* Font color */
+    color: #0d24a56e; /* Font color */
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out forwards;
   }
@@ -58,7 +58,7 @@
 }
 
 .block-img:hover, .block-img:focus {
-    border: 8px solid #fd2b06; /* Border color on hover */
+    border: 8px solid #0d24a56e; /* Border color on hover */
     transform: scale(1.05);
 }
 
@@ -84,7 +84,7 @@
 }
 
 .blockInfo > h3 {
-    color: #fd2b06;
+    color: #0d24a56e;
     font-size: 20px; /* Adjusted font size */
     transition: color 0.4s ease; /* Added transition for color */
 }

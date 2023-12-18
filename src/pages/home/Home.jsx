@@ -8,13 +8,15 @@ import twitter from "../../assets/twitter.png";
 import Header from "../../components/Header/Header";
 import NavComponent from "../../components/NavBar/NavComponent";
 import Button from "../../components/Button/Button";
+import Navbar from "../../components/Navbar copy/Navbar";
 // import Activites from "./Activites";
 
 
 const Home = () => {
   return (
     <>
-      <NavComponent/>
+    <Navbar/>
+      {/* <NavComponent/> */}
       <div className="hero"> 
         <div className="hero-d">
           <div className="hero-p">
