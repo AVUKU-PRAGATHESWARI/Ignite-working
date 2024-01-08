@@ -1,0 +1,93 @@
+.hero {
+  margin-top: 40px;
+  background-image: radial-gradient(closest-side at 250px 200px, #a50d0d, #000);
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  padding-top: 150px;
+  background-position: left center;
+}
+
+.hero .hero-d {
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  display: flex;
+}
+
+.hero .hero-d .hero-p span {
+  font-size: 65px;
+  color: white;
+  font-weight: bold;
+}
+
+.hero .hero-d .hero-p {
+  min-width: 55%;
+  max-height: 40%;
+  padding-top: 20px;
+  margin-left: 100px;
+  padding-right: 50px;
+  color: #c80202;
+  font-size: 40px;
+}
+
+.hero .hero-d .Group {
+  height: 300px;
+  width: 300px;
+}
+  
+.hero-img{
+  width:400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: bounce 4s infinite;
+}
+@keyframes bounce {
+  0% {
+    transform:  rotateY(0deg);
+  }
+  
+  100% {
+    transform:rotateY(360deg); 
+  }
+  
+    /* 75%{
+      transform: rotateX('angle');
+    } */
+}
+  
+.hero .hero-d .hero-p .hero-p2 {
+  color: rgb(199, 193, 193);
+  font-size: 2rem;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.hero .fb {
+  margin-left: 110px;
+}
+.hero img {
+  margin-top: 40px;
+  margin-right: 13px;
+  width: 45px;
+  height: 45px;
+}
+  
+.social-media-logos{
+    display: none;  
+}
+
+@media ((max-width: 900px)){
+  .hero-img{
+    display: none;
+  }
+  .social-media-logos{
+    margin-top: 10px;
+    display: block;
+    margin-left: 30px;
+    justify-content:space-around;
+    border-radius: 200px; 
+    gap:30px; 
+  }
+
+}

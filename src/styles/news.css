@@ -1,0 +1,22 @@
+.news{
+    margin-top: 100px;
+}
+
+:is(.news,.news-main){
+    display:flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-main{
+    flex-direction: column;
+    height: 600px;
+}
+
+.news-heading{
+    margin-top: 90px;
+    color: rgb(165,13,13);
+    font-size: 3rem;
+    font-weight: bold;
+}
