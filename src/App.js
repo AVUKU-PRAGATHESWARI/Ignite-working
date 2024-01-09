@@ -9,8 +9,7 @@ import Teams from './pages/Teams/TeamsPage';
 import Gallery from './pages/Gallery/Gallery';
 
 function App() {
-  return (
-   
+  return (   
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home/>}/>

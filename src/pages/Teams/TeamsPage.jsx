@@ -1,5 +1,4 @@
 import "./TeamsPage.css";
-import "./TeamsPage.css";
 import sajid from "../../assets/sajid.jpg";
 import rishitha from "../../assets/rishitha.jpg";
 import rishithreddy from "../../assets/rishithreddy.jpg";
@@ -12,7 +11,6 @@ import saivivek from "../../assets/saivivek.jpg";
 import sreenadh from "../../assets/sreenadh.jpg";
 import anil from '../../assets/anil.jpg';
 import NavComponent from '../../components/NavBar/NavComponent';
-
     
 
 const Teams = () => {   
