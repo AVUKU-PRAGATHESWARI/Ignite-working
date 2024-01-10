@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b9f10122.css",
+    "main.js": "/static/js/main.406f9169.js",
+    "static/js/289.2b7f6bad.chunk.js": "/static/js/289.2b7f6bad.chunk.js",
+    "static/media/pick4.jpg": "/static/media/pick4.68791304a9037fdb98e1.jpg",
+    "static/media/pick2.jpg": "/static/media/pick2.7023f39b95307c72b748.jpg",
+    "static/media/pick3.jpg": "/static/media/pick3.1ad4d56764c2dbf4d468.jpg",
+    "static/media/pick6.jpg": "/static/media/pick6.a41eae6ecca0e12ba4a1.jpg",
+    "static/media/saivivek.jpg": "/static/media/saivivek.cf6a085e2ec47c9812ca.jpg",
+    "static/media/lahari.jpg": "/static/media/lahari.a44e5bb2de698a2bd30f.jpg",
+    "static/media/saiganesh.jpg": "/static/media/saiganesh.34dd4f3fa16ed4f4d7e1.jpg",
+    "static/media/rishitha.jpg": "/static/media/rishitha.63a27f23c9d8599679d7.jpg",
+    "static/media/saipavan.jpg": "/static/media/saipavan.78ccc296dc17c97ca2df.jpg",
+    "static/media/sajid.jpg": "/static/media/sajid.d49b5809acc8628f862d.jpg",
+    "static/media/pick5.jpg": "/static/media/pick5.3ce9f19df8a9b2df3a09.jpg",
+    "static/media/pick1.jpg": "/static/media/pick1.7844a20ac5724bf6e042.jpg",
+    "static/media/sreenadh.jpg": "/static/media/sreenadh.7cdba3176de1b73ab8bb.jpg",
+    "static/media/mubhashira.jpg": "/static/media/mubhashira.59ebc3b8b352d3ff1ec2.jpg",
+    "static/media/rishithreddy.jpg": "/static/media/rishithreddy.15824ef791cad36a853a.jpg",
+    "static/media/dwisanth.jpg": "/static/media/dwisanth.42541e6a93cfe9f319c4.jpg",
+    "static/media/anil.jpg": "/static/media/anil.77368906a06a887aa7e4.jpg",
+    "static/media/Group.png": "/static/media/Group.40f21c19646cc2185576.png",
+    "static/media/ignite.png": "/static/media/ignite.7250a52afb69e546b698.png",
+    "index.html": "/index.html",
+    "main.b9f10122.css.map": "/static/css/main.b9f10122.css.map",
+    "main.406f9169.js.map": "/static/js/main.406f9169.js.map",
+    "289.2b7f6bad.chunk.js.map": "/static/js/289.2b7f6bad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9f10122.css",
+    "static/js/main.406f9169.js"
+  ]
+}
