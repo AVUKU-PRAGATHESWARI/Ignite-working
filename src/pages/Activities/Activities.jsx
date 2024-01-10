@@ -2,12 +2,9 @@
 
 import React from 'react';
 import './Activities.css';
-<<<<<<< HEAD
-=======
 import hack from '../../assets/hackathon.jpg';
 import tresure from '../../assets/treasure.jpg';
 import ideathon from '../../assets/ideathon.jpg';
->>>>>>> b7e63803b3f5bf5034e0938577845d0a89e90b16
 import NavComponent from '../../components/NavBar/NavComponent';
 
 const Activities = () => {
@@ -31,16 +28,11 @@ const Activities = () => {
   ];
 
   return (
-<<<<<<< HEAD
-    <div>
-      <NavComponent/>
-=======
     <>
     <NavComponent/>
      <h1 className='for-heading-in-team'>Activities</h1>
      <div className='for-activities'>
      
->>>>>>> b7e63803b3f5bf5034e0938577845d0a89e90b16
       {activityData.map((activity, index) => (
         <div key={index} className="activity-card">
           <img src={activity.image} alt={`Activity ${index + 1}`} className="activity-image" />
