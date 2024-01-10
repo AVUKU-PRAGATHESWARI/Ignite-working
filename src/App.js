@@ -7,6 +7,7 @@ import RegistationContainer from './containers/RegistrationContainer';
 import Contact from './pages/Contact/Contact';
 import Teams from './pages/Teams/TeamsPage';
 import Gallery from './pages/Gallery/Gallery';
+import NavComponent from './components/NavBar/NavComponent';
 
 function App() {
   return (   

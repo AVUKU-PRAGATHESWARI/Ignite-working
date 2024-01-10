@@ -2,24 +2,37 @@
 
 import React from 'react';
 import './Activities.css';
+import hack from '../../assets/hackathon.jpg';
+import tresure from '../../assets/treasure.jpg';
+import ideathon from '../../assets/ideathon.jpg';
+import NavComponent from '../../components/NavBar/NavComponent';
 
 const Activities = () => {
   const activityData = [
     {
-      title: 'Activity 1',
-      description: 'Description for Activity 1. This is a sample description.',
-      image: 'url-to-image-1.jpg',
+      title: 'Hacathon',
+      description: 'A hackathon ',
+      image: hack,
     },
     {
-      title: 'Activity 2',
-      description: 'Description for Activity 2. This is another sample description.',
-      image: 'url-to-image-2.jpg',
+      title: 'Treasure Hunt',
+      description: 'Treasure hunt ',
+      image: tresure,
     },
+    {
+      title:'Ideathon',
+      description:'Ideathon ',
+      image:ideathon
+    }
     // Add more activities as needed
   ];
 
   return (
-    <div>
+    <>
+    <NavComponent/>
+     <h1 className='for-heading-in-team'>Activities</h1>
+     <div className='for-activities'>
+     
       {activityData.map((activity, index) => (
         <div key={index} className="activity-card">
           <img src={activity.image} alt={`Activity ${index + 1}`} className="activity-image" />
@@ -30,6 +43,7 @@ const Activities = () => {
         </div>
       ))}
     </div>
+    </>
   );
 };
 
