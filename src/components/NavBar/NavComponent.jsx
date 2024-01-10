@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import img1 from '../../assets/ignite.png'
+import {Route as RouteName, RoutePrefix} from '../../Routes'
 import {
   FaLinkedin,
   FaTwitterSquare,
@@ -12,14 +13,15 @@ import { Link } from "react-router-dom";
 
 
 
-const NavComponent = () => {
+const NavComponent = ({isHomePage}) => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
     <>
+    
       <nav className="main-nav">
         {/* 1st logo part  */}
         <div className="logo">
-          <img className="logo" src={img1} alt="" />
+          <img className="logo" src={img1} alt="logo" onClick={`${RoutePrefix}/${RouteName.Home}`}/>
         </div>
 
         {/* 2nd menu part  */}
@@ -29,19 +31,19 @@ const NavComponent = () => {
           }>
           <ul className="for-list">
             <li>
-              <Link className="for-list-items" to="/">Home</Link>
+              <Link className="for-list-items" to={`${RoutePrefix}/${RouteName.Home}`}>Home</Link>
             </li>
             <li>
-              <Link className="for-list-items" to="/activities">Activities</Link>
+              <Link className="for-list-items" to={`${RoutePrefix}/${RouteName.Activities}`}>Activities</Link>
             </li>
             <li>
-              <Link className="for-list-items" to="/teams">Teams</Link>
+              <Link className="for-list-items" to={`${RoutePrefix}/${RouteName.Teams}`}>Teams</Link>
             </li>
             <li>
-              <Link className="for-list-items" to="/contact">contact</Link>
+              <Link className="for-list-items" to={`${RoutePrefix}/${RouteName.Contact}`}>contact</Link>
             </li> 
             <li>
-              <Link className="for-list-items" to='/gallery'>Gallery</Link>
+              <Link className="for-list-items" to={`${RoutePrefix}/${RouteName.Gallery}`}>Gallery</Link>
             </li>
           </ul>
         

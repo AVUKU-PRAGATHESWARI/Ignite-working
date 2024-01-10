@@ -2,6 +2,7 @@
 
 import React from 'react';
 import './Activities.css';
+import NavComponent from '../../components/NavBar/NavComponent';
 
 const Activities = () => {
   const activityData = [
@@ -20,6 +21,7 @@ const Activities = () => {
 
   return (
     <div>
+      <NavComponent/>
       {activityData.map((activity, index) => (
         <div key={index} className="activity-card">
           <img src={activity.image} alt={`Activity ${index + 1}`} className="activity-image" />
