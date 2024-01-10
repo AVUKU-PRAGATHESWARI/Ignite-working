@@ -1,5 +1,6 @@
 .news-main {
     text-align: center; 
+    margin-top: 10rem;
   }
   
   .news-heading {
@@ -12,8 +13,7 @@
   .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 16px;
-    margin-left:2%;    
+    gap: 16px;  
   }
   
   .gallery-image {

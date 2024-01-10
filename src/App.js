@@ -7,11 +7,14 @@ import RegistationContainer from './containers/RegistrationContainer';
 import Contact from './pages/Contact/Contact';
 import Teams from './pages/Teams/TeamsPage';
 import Gallery from './pages/Gallery/Gallery';
+<<<<<<< HEAD
 import {Route as RouteName,RoutePrefix} from './Routes'
+=======
+import NavComponent from './components/NavBar/NavComponent';
+>>>>>>> b7e63803b3f5bf5034e0938577845d0a89e90b16
 
 function App() {
-  return (
-   
+  return (   
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home/>}/>

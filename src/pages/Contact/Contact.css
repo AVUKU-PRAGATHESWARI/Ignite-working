@@ -1,4 +1,8 @@
 
+.for-conatct{
+    margin-top: 20rem;
+    background-color: aliceblue;
+}
 
 input{
     color: var(--text-black-700);
@@ -85,7 +89,7 @@ textarea{
     font-size: 16px;
     font-weight: 500;
     padding: 12px 35px;
-    background: red;
+    background:  #a50d0d;
     color: white;
     border-radius: 40px;
     display: inline-block;
@@ -104,7 +108,7 @@ textarea{
 
 /* Contact */
 .contact-title{
-    color: red;
+    color:  #a50d0d;
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
@@ -130,7 +134,7 @@ textarea{
 
 .contact .contact-info-item .icon .fa{
     font-size: 25px;
-    color: red;
+    color:  #a50d0d;
 }
 .contact .contact-info-item h4{
     font-size: 18px;

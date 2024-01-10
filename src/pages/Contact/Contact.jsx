@@ -49,7 +49,8 @@ const Contact = () => {
 
   return (
     <>
-    
+    <NavComponent/>
+    <div className='for-conatct'>
         <div className="contact section" id="contact">
     <div className="container">
         <div className="row">
@@ -134,6 +135,7 @@ const Contact = () => {
             </div>
         </div>
     </div>
+</div>
 </div>
     </>
   )
