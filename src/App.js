@@ -8,24 +8,19 @@ import Contact from './pages/Contact/Contact';
 import Teams from './pages/Teams/TeamsPage';
 import Gallery from './pages/Gallery/Gallery';
 
-import {Route as RouteName,RoutePrefix} from './Routes'
-
-import NavComponent from './components/NavBar/NavComponent';
-
 
 function App() {
   return (   
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path={RoutePrefix} element={<Home/>} />
-        <Route path={`${RoutePrefix}/${RouteName.Home}`} element={<Home/>} />
-        <Route path={`${RoutePrefix}/${RouteName.Login}`} element={<LoginContainer/>} />
-        <Route path={`${RoutePrefix}/${RouteName.Registration}`} element={<RegistationContainer/>} />
-        <Route path={`${RoutePrefix}/${RouteName.Activities}`} element={<Activites/>}/>
-        <Route path={`${RoutePrefix}/${RouteName.Contact}`} element={<Contact/>}/>
-        <Route path={`${RoutePrefix}/${RouteName.Teams}`} element={<Teams/>} />
-        <Route path={`${RoutePrefix}/${RouteName.Gallery}`} element={<Gallery/>} />
+        <Route path="/home" element={<Home/>} />
+        <Route path="/login" element={<LoginContainer/>} />
+        <Route path="/registration" element={<RegistationContainer/>} />
+        <Route path="/activities" element={<Activites/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/teams" element={<Teams/>} />
+        <Route path="/gallery" element={<Gallery/>} />
       </Routes>
     </BrowserRouter>
   )
